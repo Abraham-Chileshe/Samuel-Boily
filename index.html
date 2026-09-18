@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuel Mathieu Boily | Junior Minecraft & Python Coder - Progkids</title>
+  <meta name="description" content="Portfolio of Samuel Mathieu Boily (Age 11) - Student at Progkids learning Minecraft Snap and Python in Minecraft under Teacher Abraham Chileshe." />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/samuuel1.jpg" />
+  <link rel="shortcut icon" href="assets/samuuel1.jpg" type="image/jpeg" />
+  <link rel="apple-touch-icon" href="assets/samuuel1.jpg" />
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for crisp UI icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Referrer Policy for YouTube Embeds -->
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==========================================
+       Top Navigation (Progkids White & Green Navbar)
+       ========================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <div class="brand-logo-wrap">
+          <div class="brand-cube">
+            <i class="fa-solid fa-cube"></i>
+          </div>
+          <div class="brand-title-group">
+            <span class="brand-pk-name">
+              <span class="prog-txt">PORT</span><span class="kids-txt">FOLIO</span>
+            </span>
+            <span class="brand-student-name">Samuel Mathieu Boily</span>
+          </div>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills & Courses</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#lesson-clip" class="nav-link">Lesson Clip</a></li>
+        <li><a href="#teacher" class="nav-link">Teacher Abraham</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#teacher" class="btn btn-orange">
+          <i class="fa-solid fa-paper-plane"></i> Contact Teacher
+        </a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==========================================
+       Hero Section (Progkids Vibrant Lime Green Banner)
+       ========================================== -->
+  <header class="hero-section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badges-row">
+          <span class="hero-chip"><i class="fa-solid fa-cake-candles"></i> 11 Years Old</span>
+          <span class="hero-chip orange-chip"><i class="fa-solid fa-rocket"></i> Progkids Student</span>
+          <span class="hero-chip"><i class="fa-solid fa-trophy"></i> Junior Coder</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="orange-highlight">Samuel</span> Mathieu Boily!
+        </h1>
+
+        <p class="hero-subtitle">
+          Welcome to my coding portfolio! I build games, automated mega castles, and interactive magic in <strong>Minecraft</strong> using <strong>Snap! Visual Blocks</strong> and <strong>Python scripting</strong> at Progkids Academy.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-orange">
+            <i class="fa-solid fa-gamepad"></i> Explore My Builds
+          </a>
+          <a href="#lesson-clip" class="btn btn-white">
+            <i class="fa-solid fa-circle-play"></i> Watch Lesson Clip
+          </a>
+        </div>
+
+        <!-- Gamified Quick Stats Bar -->
+        <!-- <div class="hero-stats-card">
+          <div class="stat-item">
+            <span class="stat-num" data-target="350">350+</span>
+            <span class="stat-label">Lines of Python</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="15">15+</span>
+            <span class="stat-label">Minecraft Worlds</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="24">24+</span>
+            <span class="stat-label">Progkids Badges</span>
+          </div>
+        </div> -->
+      </div>
+
+      <!-- Hero Visual / 3D Avatar Card -->
+      <div class="hero-visual">
+        <div class="avatar-wrapper">
+          <div class="avatar-backdrop"></div>
+          
+          <div class="floating-chip chip-top">
+            <div class="chip-icon chip-python">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="chip-text">
+              <span class="chip-title">Python in Minecraft</span>
+              <span class="chip-sub">mcpi Code Automation</span>
+            </div>
+          </div>
+
+          <div class="avatar-card">
+            <img src="assets/samuel.jpeg" alt="Samuel Mathieu Boily - 11 Year Old Junior Coder at Progkids" id="samuelImg" />
+          </div>
+
+          <div class="floating-chip chip-bottom">
+            <div class="chip-icon chip-snap">
+              <i class="fa-solid fa-shapes"></i>
+            </div>
+            <div class="chip-text">
+              <span class="chip-title">Minecraft Snap!</span>
+              <span class="chip-sub">Visual Block Logic</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Organic Wave Transition at bottom of hero -->
+    <div class="hero-wave">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       About & Student Journey Section
+       ========================================== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Courses & Skills</span>
+        <h2 class="section-title">What I'm Learning at Progkids</h2>
+        <p class="section-desc">
+          Mentored by Teacher Abraham Chileshe, I explore computer science fundamentals through hands-on Minecraft game development!
+        </p>
+      </div>
+
+      <div class="skills-grid" id="skills">
+        <!-- Snap Skill Card -->
+        <div class="skill-card">
+          <div class="skill-icon-box icon-snap">
+            <i class="fa-solid fa-shapes"></i>
+          </div>
+          <h3 class="skill-name">Minecraft Snap!</h3>
+          <p class="skill-summary">
+            Visual block programming to master algorithmic thinking, event handlers, redstone loops, and interactive obstacle courses.
+          </p>
+          <ul class="skill-checklist">
+            <li><span class="check-dot"><i class="fa-solid fa-check"></i></span> Block-based Loops & Conditions</li>
+            <li><span class="check-dot"><i class="fa-solid fa-check"></i></span> Redstone Mechanics & Traps</li>
+            <li><span class="check-dot"><i class="fa-solid fa-check"></i></span> Interactive Minigame Logic</li>
+          </ul>
+        </div>
+
+        <!-- Python Skill Card -->
+        <div class="skill-card">
+          <div class="skill-icon-box icon-python">
+            <i class="fa-brands fa-python"></i>
+          </div>
+          <h3 class="skill-name">Python in Minecraft</h3>
+          <p class="skill-summary">
+            Real Python text programming with `mcpi` library to control 3D coordinates, auto-build castles, and code custom teleport spells.
+          </p>
+          <ul class="skill-checklist">
+            <li><span class="check-dot"><i class="fa-solid fa-check"></i></span> 3D X, Y, Z Coordinate Math</li>
+            <li><span class="check-dot"><i class="fa-solid fa-check"></i></span> Automated Castle Generators</li>
+            <li><span class="check-dot"><i class="fa-solid fa-check"></i></span> Custom Player Powers & Spells</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Projects Gallery Section
+       ========================================== -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag tag-orange"><i class="fa-solid fa-code"></i> Project Showcase</span>
+        <h2 class="section-title">My Minecraft Code Projects</h2>
+        <!-- <p class="section-desc">
+          Click on any project to inspect the Python scripts, Snap! logic blocks, and how they run live in Minecraft!
+        </p> -->
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="python">Python Minecraft</button>
+        <button class="filter-btn" data-filter="snap">Minecraft Snap!</button>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="projects-grid" id="projectsGrid">
+        
+        <!-- Project 1: Stepped Pyramid & Temple Generator (Python) -->
+        <div class="project-card" data-category="python">
+          <div class="project-thumb">
+            <img src="assets/pyramid.png" alt="Python Stepped Pyramid and Temple Generator" />
+            <span class="project-badge-tag badge-python-tag">
+              <i class="fa-brands fa-python"></i> Python MC
+            </span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Stepped Pyramid &amp; Temple</h3>
+            <p class="project-desc">
+              A Python script that generates a 40-tier stepped sandstone pyramid with 4 face staircases, gold capstone, grand pillared entrance temple, and carved interior chambers.
+            </p>
+            <div class="project-tags">
+              <span class="code-tag">world.setCuboid()</span>
+              <span class="code-tag">3D Nested Loops</span>
+              <span class="code-tag">Math Coordinates</span>
+            </div>
+            <div class="project-footer">
+              <button class="view-code-btn" data-project="pyramid">
+                <span>View Python Script</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Modern Hotel & Skyscraper Generator (Python) -->
+        <div class="project-card" data-category="python">
+          <div class="project-thumb">
+            <img src="assets/hotel.png" alt="Python Modern Hotel and Skyscraper Complex" />
+            <span class="project-badge-tag badge-python-tag">
+              <i class="fa-brands fa-python"></i> Python MC
+            </span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Modern Hotel &amp; Skyscraper</h3>
+            <p class="project-desc">
+              A procedural multi-story modern hotel skyscraper generator featuring symmetric multi-wing architecture, interconnecting hallways, spiral staircases, and surrounding perimeter security fencing.
+            </p>
+            <div class="project-tags">
+              <span class="code-tag">world.buildHome()</span>
+              <span class="code-tag">Procedural Floors</span>
+              <span class="code-tag">Multi-Wing Layout</span>
+            </div>
+            <div class="project-footer">
+              <button class="view-code-btn" data-project="hotel">
+                <span>View Python Script</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Modern Waterfront Mansion & Secret Lab (Python) -->
+        <div class="project-card" data-category="python">
+          <div class="project-thumb">
+            <img src="assets/mansion.png" alt="Python Waterfront Modern Mansion and Secret Lab" />
+            <span class="project-badge-tag badge-python-tag">
+              <i class="fa-brands fa-python"></i> Python MC
+            </span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Waterfront Modern Mansion</h3>
+            <p class="project-desc">
+              An interactive estate generator featuring custom block ID inputs, river bridge, 2-story glass mansion, furnished living room with big TV, pool, and an underground secret lab tunnel.
+            </p>
+            <div class="project-tags">
+              <span class="code-tag">input() Block Choice</span>
+              <span class="code-tag">River &amp; Bridge</span>
+              <span class="code-tag">Secret Lab Tunnel</span>
+            </div>
+            <div class="project-footer">
+              <button class="view-code-btn" data-project="mansion">
+                <span>View Python Script</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Giant 3D Snowman Generator (Snap) -->
+        <div class="project-card" data-category="snap">
+          <div class="project-thumb">
+            <img src="assets/snowman.png" alt="Giant 3D Snowman with Snap Visual Blocks" />
+            <span class="project-badge-tag badge-snap-tag">
+              <i class="fa-solid fa-shapes"></i> Minecraft Snap!
+            </span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Giant 3D Snowman</h3>
+            <p class="project-desc">
+              A 3D procedural snowman generator programmed with Progkids Snap! block logic. Uses 3-tier math sphere algorithms, angled wooden arms, and bedrock facial features.
+            </p>
+            <div class="project-tags">
+              <span class="code-tag">Sphere: Radius 15/9/5</span>
+              <span class="code-tag">Visual Block Logic</span>
+              <span class="code-tag">Coordinate Geometry</span>
+            </div>
+            <div class="project-footer">
+              <button class="view-code-btn" data-project="snowman">
+                <span>View Snap Logic</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Ice Boat Racing Arena (Snap) -->
+        <div class="project-card" data-category="snap">
+          <div class="project-thumb">
+            <img src="assets/race.png" alt="Ice Boat Racing Arena with Snap Visual Blocks" />
+            <span class="project-badge-tag badge-snap-tag">
+              <i class="fa-solid fa-shapes"></i> Minecraft Snap!
+            </span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Ice Boat Racing Arena</h3>
+            <p class="project-desc">
+              A high-speed boat racing circuit coded with Snap! visual blocks. Generates a massive aquatic stadium with layered water physics, high-speed slick ice race lanes, and sand barrier boundary walls.
+            </p>
+            <div class="project-tags">
+              <span class="code-tag">Block [Ice] Physics</span>
+              <span class="code-tag">Visual Block Logic</span>
+              <span class="code-tag">Arena World Fill</span>
+            </div>
+            <div class="project-footer">
+              <button class="view-code-btn" data-project="race">
+                <span>View Snap Logic</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       My Gallery Section (Samuel's Creative & Tech Journey)
+       ========================================== -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-camera-retro"></i> Samuel's Adventures</span>
+        <h2 class="section-title">My <span class="text-gradient-green">Coding &amp; Discovery Gallery</span></h2>
+        <p class="section-desc">
+          Beyond coding in Minecraft and Python, here is a look at Samuel's passion for computers, robotics, science exhibitions, and engineering creations!
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Photo 1 -->
+        <div class="gallery-item" data-img="assets/1.jpeg" data-caption="Exploring Retro Apple II Terminals &amp; Early Computing History">
+          <div class="gallery-thumb">
+            <img src="assets/1.jpeg" alt="Samuel with Retro Apple II Computer" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-badge"><i class="fa-solid fa-desktop"></i> Retro Tech</span>
+              <span class="gallery-view-icon"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4>Apple II Computer Terminal</h4>
+            <p>Exploring early computing history &amp; classic Donkey Kong</p>
+          </div>
+        </div>
+
+        <!-- Photo 2 -->
+        <div class="gallery-item" data-img="assets/2.jpeg" data-caption="Hands-on with Vintage Classic Macintosh System">
+          <div class="gallery-thumb">
+            <img src="assets/2.jpeg" alt="Samuel with Vintage Macintosh" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-badge"><i class="fa-solid fa-computer"></i> Vintage Tech</span>
+              <span class="gallery-view-icon"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4>Classic Macintosh System</h4>
+            <p>Hands-on discovery of early graphical user interfaces</p>
+          </div>
+        </div>
+
+        <!-- Photo 3 -->
+        <div class="gallery-item" data-img="assets/3.jpeg" data-caption="Learning About Historical Cryptography &amp; Enigma Cipher Machine">
+          <div class="gallery-thumb">
+            <img src="assets/3.jpeg" alt="Samuel at the Enigma Machine Exhibition" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-badge"><i class="fa-solid fa-key"></i> Cryptography</span>
+              <span class="gallery-view-icon"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4>The Enigma Cipher Machine</h4>
+            <p>Learning historical encryption &amp; rotor cipher algorithms</p>
+          </div>
+        </div>
+
+        <!-- Photo 4 -->
+        <div class="gallery-item" data-img="assets/4.jpeg" data-caption="Meeting Autonomous Street Delivery Rovers &amp; Smart Robotics">
+          <div class="gallery-thumb">
+            <img src="assets/4.jpeg" alt="Samuel with Autonomous Delivery Robot" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-badge"><i class="fa-solid fa-robot"></i> Robotics</span>
+              <span class="gallery-view-icon"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4>Autonomous Delivery Robot</h4>
+            <p>Discovering smart navigation sensors &amp; LiDAR rovers</p>
+          </div>
+        </div>
+
+        <!-- Photo 5 -->
+        <div class="gallery-item" data-img="assets/5.jpeg" data-caption="Flight Deck Controls &amp; Space Mission Simulation">
+          <div class="gallery-thumb">
+            <img src="assets/5.jpeg" alt="Samuel in Flight Cockpit Simulator" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-badge"><i class="fa-solid fa-shuttle-space"></i> Aerospace</span>
+              <span class="gallery-view-icon"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4>Flight Deck &amp; Space Simulator</h4>
+            <p>Exploring avionics instrument dials and spacecraft controls</p>
+          </div>
+        </div>
+
+        <!-- Photo 6 -->
+        <div class="gallery-item" data-img="assets/6.jpeg" data-caption="Celebration &amp; Cultural Traditions with Traditional Samovar">
+          <div class="gallery-thumb">
+            <img src="assets/6.jpeg" alt="Samuel with Traditional Samovar" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-badge"><i class="fa-solid fa-mug-hot"></i> Culture</span>
+              <span class="gallery-view-icon"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4>Traditional Miniature Samovar</h4>
+            <p>Enjoying family dinner, barbecue &amp; cultural heritage</p>
+          </div>
+        </div>
+
+        <!-- Photo 7 -->
+        <div class="gallery-item" data-img="assets/7.jpeg" data-caption="City Canal Walk &amp; Math Equations Explorer">
+          <div class="gallery-thumb">
+            <img src="assets/7.jpeg" alt="Samuel with Math Equations Shirt by Canal" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-badge"><i class="fa-solid fa-square-root-variable"></i> Math &amp; Travel</span>
+              <span class="gallery-view-icon"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4>Canal Walk &amp; Math Enthusiast</h4>
+            <p>Sightseeing by the historic cathedral wearing math logic tees</p>
+          </div>
+        </div>
+
+        <!-- Photo 8 -->
+        <div class="gallery-item" data-img="assets/8.jpeg" data-caption="Custom Built Multi-Deck Lego Ocean Liner &amp; Rigging Engineering">
+          <div class="gallery-thumb">
+            <img src="assets/8.jpeg" alt="Samuel with Custom Lego Ship" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-badge"><i class="fa-solid fa-cubes"></i> Engineering</span>
+              <span class="gallery-view-icon"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4>Custom Lego Ocean Liner</h4>
+            <p>3D brick engineering with suspension cables and funnels</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Lesson Clip Showcase Section
+       ========================================== -->
+  <section class="lesson-section" id="lesson-clip">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-video"></i> Live Class Highlight</span>
+      </div>
+
+      <div class="lesson-box">
+        <div class="lesson-media-wrapper" id="lessonPlayer">
+          <img src="assets/lesson-clip.jpg" alt="Samuel and Abraham Live Progkids Lesson Recording" />
+          <div class="live-badge">
+            <span class="live-dot"></span> Live Progkids Project Review
+          </div>
+          <div class="video-play-overlay" id="playLessonBtn">
+            <div class="play-button-big">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <span style="color: #ffffff; font-weight: 800; font-size: 1rem; text-shadow: 0 2px 8px rgba(0,0,0,0.8);">
+              Click to Watch Projects Walkthrough
+            </span>
+          </div>
+        </div>
+
+        <div class="lesson-info-panel">
+          <span class="lesson-label">Live Lesson Walkthrough</span>
+          <h3 class="lesson-title">Testing &amp; Reviewing the Portfolio Projects</h3>
+          <p class="lesson-desc">
+            In this video clip, Samuel and Teacher Abraham go through the featured coding projects above—running the Python scripts and Snap! visual block algorithms live in Minecraft to test the structures, debug coordinates, and explain how each build works!
+          </p>
+
+          <div class="lesson-stats-grid">
+            <div class="lesson-stat-point">
+              <span class="lesson-stat-icon"><i class="fa-solid fa-cubes"></i></span>
+              <div class="lesson-stat-detail">
+                <span class="lesson-stat-val">5 Live Projects</span>
+                <span class="lesson-stat-lbl">Tested in Minecraft</span>
+              </div>
+            </div>
+            <div class="lesson-stat-point">
+              <span class="lesson-stat-icon" style="color: var(--pk-orange);"><i class="fa-solid fa-code"></i></span>
+              <div class="lesson-stat-detail">
+                <span class="lesson-stat-val">Python &amp; Snap!</span>
+                <span class="lesson-stat-lbl">Code Walkthrough</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <button class="btn btn-orange" id="openClipModalBtn">
+              <i class="fa-solid fa-expand"></i> Open Full Projects Walkthrough
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Teacher & Mentor Section: Abraham Chileshe
+       ========================================== -->
+  <section class="teacher-section" id="teacher">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-chalkboard-user"></i> Progkids Mentor</span>
+        <h2 class="section-title">Meet Teacher Abraham Chileshe</h2>
+       
+      </div>
+
+      <div class="teacher-card">
+        <div class="teacher-photo-col">
+          <div class="teacher-photo-frame">
+            <img src="assets/abraham.jpg" alt="Abraham Chileshe - Progkids Coding Teacher & Mentor" />
+          </div>
+          <span class="teacher-role-badge">
+            <i class="fa-solid fa-certificate"></i> Verified Progkids Instructor
+          </span>
+        </div>
+
+        <div class="teacher-content">
+          <div class="teacher-name-title">
+            <h3 class="teacher-name">Abraham Chileshe</h3>
+            <span class="teacher-sub">Senior Coding Instructor & Minecraft Python Specialist at Progkids</span>
+          </div>
+
+          <div class="teacher-quote">
+            "Samuel Mathieu Boily is a fantastic student with a bright future in tech! At only 11 years old, his curiosity and ability to break down complex Python logic and 3D coordinate geometry in Minecraft is extraordinary. Every lesson is filled with enthusiasm and creative breakthroughs!"
+          </div>
+
+          <!-- Teacher Contact & Profile Details -->
+          <div class="teacher-info-grid">
+           
+            <a href="https://www.progkids.com/tutors/63206576d1fd4703495a4b34" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <div class="contact-icon orange-icon">
+                <i class="fa-solid fa-id-badge"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Teacher Profile</span>
+                <span class="contact-value">progkids.com/tutors</span>
+              </div>
+            </a>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Email Contact</span>
+                <span class="contact-value">achileshe21@gmail.com</span>
+              </div>
+            </div>
+
+            
+          </div>
+
+          <div class="teacher-actions">
+            <a href="https://www.progkids.com/tutors/63206576d1fd4703495a4b34" target="_blank" rel="noopener noreferrer" class="btn btn-orange">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> View Abraham's Progkids Profile
+            </a>
+            <a href="mailto:achileshe21@gmail.com" class="btn btn-outline-green">
+              <i class="fa-solid fa-envelope"></i> Send an Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Interactive Code Modal
+       ========================================== -->
+  <div class="modal" id="codeModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="brand-cube" style="width: 32px; height: 32px; font-size: 0.9rem;">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3 class="modal-title" id="modalProjectTitle">Project Source Code</h3>
+        </div>
+        <button class="modal-close-btn" id="closeCodeModalBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p id="modalProjectDesc" style="color: var(--text-muted); font-size: 0.95rem;"></p>
+        
+        <div id="modalCodeImageWrap" style="display: none; background: #0f172a; padding: 14px; border-radius: var(--radius-md); border: 1px solid #334155;">
+          <div style="font-size: 0.8rem; font-weight: 700; color: #94a3b8; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;">
+            <span style="display: flex; align-items: center; gap: 6px;"><i class="fa-solid fa-shapes" style="color: var(--pk-orange);"></i> Visual Block Workspace Snapshot</span>
+            <a id="modalCodeImageLink" href="#" target="_blank" style="color: var(--pk-green-light); font-size: 0.78rem; text-decoration: none; font-weight: 800;">
+              View Full Image <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <div style="border-radius: 6px; overflow: hidden; border: 1px solid #1e293b; max-height: 380px; overflow-y: auto;">
+            <img id="modalCodeImage" src="" alt="Visual Code Workspace" style="width: 100%; display: block; object-fit: contain;" />
+          </div>
+        </div>
+
+        <div class="code-viewer-block">
+          <div class="code-viewer-header">
+            <span class="code-lang" id="modalCodeLang">PYTHON 3 (MCPI)</span>
+            <button class="copy-btn" id="copyCodeBtn">
+              <i class="fa-solid fa-copy"></i> Copy Code
+            </button>
+          </div>
+          <pre class="code-content" id="modalCodeSnippet"></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       Interactive Lesson Video Clip Modal
+       ========================================== -->
+  <div class="modal" id="videoModal">
+    <div class="modal-card" style="max-width: 900px;">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="brand-cube" style="width: 32px; height: 32px; font-size: 0.9rem; background: var(--pk-gradient-orange);">
+            <i class="fa-solid fa-play"></i>
+          </div>
+          <h3 class="modal-title">Samuel &amp; Teacher Abraham - Projects Walkthrough</h3>
+        </div>
+        <button class="modal-close-btn" id="closeVideoModalBtn">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 0; background: #000000;">
+        <div style="position: relative; width: 100%; aspect-ratio: 16/9; background: #000000; overflow: hidden;" id="videoContainer">
+          <iframe id="youtubeIframe" width="100%" height="100%" src="https://www.youtube.com/embed/aQe2pDLjst8?si=1dPYl2VakcKNK9u8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+        </div>
+
+        <div style="padding: 18px 24px; background: #ffffff; display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center;">
+          <div>
+            <h4 style="font-weight: 800; color: var(--text-dark); margin-bottom: 4px;">Live Project Review &amp; Code Walkthrough</h4>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Samuel &amp; Teacher Abraham walking through the Stepped Pyramid, Skyscraper Hotel, Mansion, Snowman, and Ice Boat Arena scripts.</p>
+          </div>
+          <a href="https://youtu.be/aQe2pDLjst8" target="_blank" rel="noopener noreferrer" class="btn btn-orange" style="font-size: 0.85rem; padding: 8px 18px;">
+            <i class="fa-brands fa-youtube"></i> Watch on YouTube <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       Footer Section (Progkids Slate & Green)
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col-main">
+          <div class="footer-brand">
+            <span class="brand-cube" style="width: 36px; height: 36px;"><i class="fa-solid fa-cube"></i></span>
+            <span>Samuel Mathieu Boily</span>
+          </div>
+          <p class="footer-desc">
+            Student portfolio website showcasing creative Minecraft Snap and Python coding projects built during interactive lessons with Teacher Abraham Chileshe at Progkids Academy.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Samuel</a></li>
+            <li><a href="#skills">Skills & Courses</a></li>
+            <li><a href="#projects">Minecraft Projects</a></li>
+            <li><a href="#lesson-clip">Lesson Highlight</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Mentorship</h4>
+          <ul class="footer-links">
+            <li><a href="#teacher">Teacher Abraham Chileshe</a></li>
+            <li><a href="https://progkids.com" target="_blank" rel="noopener noreferrer">Progkids Academy</a></li>
+            <li><a href="mailto:abraham@progkids.com">Contact via Email</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Samuel Mathieu Boily. Mentored by Abraham Chileshe at Progkids.</p>
+        <p><i class="fa-solid fa-heart" style="color: var(--pk-green-light);"></i> Progkids Coding Academy</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       Interactive Gallery Lightbox Modal
+       ========================================== -->
+  <div class="modal" id="lightboxModal">
+    <div class="modal-card lightbox-card" style="max-width: 880px; background: #0f172a; border: 1px solid #334155;">
+      <div class="modal-header" style="background: #1e293b; border-bottom: 1px solid #334155;">
+        <div class="modal-title-group">
+          <div class="brand-cube" style="width: 32px; height: 32px; font-size: 0.9rem; background: var(--pk-gradient-green);">
+            <i class="fa-solid fa-camera"></i>
+          </div>
+          <h3 class="modal-title" id="lightboxTitle" style="color: #ffffff; font-size: 1.15rem;">Photo Preview</h3>
+        </div>
+        <button class="modal-close-btn" id="closeLightboxBtn" style="color: #cbd5e1;">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 20px; align-items: center; justify-content: center; background: #0b1120;">
+        <div style="width: 100%; display: flex; align-items: center; justify-content: center; overflow: hidden; border-radius: var(--radius-md);">
+          <img id="lightboxImage" src="" alt="Samuel Photo Full View" style="max-width: 100%; max-height: 68vh; object-fit: contain; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+        </div>
+        <p id="lightboxCaption" style="color: #94a3b8; font-size: 0.95rem; text-align: center; margin-top: 12px; font-weight: 600;"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
